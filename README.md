@@ -30,7 +30,7 @@ The GDGC (Google Developer Group Community) club aims to enhance member engageme
 
 5.Scan the QR code displayed in the terminal or browser to view the app on your device.
 
-Note: Due to Lack of Time, Login Authentication and many Screens were not Completed .
+Note: Due to Lack of Time, Login Authentication and many Screens were not Completed,So You can use anything and logged In, The Validation is not Done properly.
    
    
    
