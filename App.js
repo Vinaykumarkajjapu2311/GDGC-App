@@ -1,20 +1,18 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// src/App.js
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import TabNavigator from './TabNavigation';
+import StackNavigator from './StackNavigation';
 
-export default function App() {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      {/* You can switch between StackNavigator and TabNavigator here based on your flow */}
+      <StackNavigator />
+      {/* If you want Tab navigation at some point, you can use it like below */}
+      {/* <TabNavigator /> */}
+    </NavigationContainer>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
