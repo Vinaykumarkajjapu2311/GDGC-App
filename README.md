@@ -29,6 +29,8 @@ The GDGC (Google Developer Group Community) club aims to enhance member engageme
 4.Download the Expo Go app from the Play Store or App Store.
 
 5.Scan the QR code displayed in the terminal or browser to view the app on your device.
+
+Note: Due to Lack of Time, Login Authentication and many Screens were not Completed .
    
    
    
